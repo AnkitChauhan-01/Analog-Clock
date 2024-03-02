@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Micro+5&display=swap');
+#clockContainer{
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    /* border: 2px solid red; */
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.6%;
+    height: 23%;
+    top: 27%;
+    left: 49.1%;
+    opacity: 0.8;
+
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 20%;
+    left: 49.1%;
+    opacity: 0.8;
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.4%;
+    opacity: 0.8;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: "Micro 5", sans-serif;
+}
